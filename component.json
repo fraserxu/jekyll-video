@@ -1,0 +1,15 @@
+{
+  "name": "jekyll-video",
+  "repo": "xufeng123/jekyll-video",
+  "description": "Video support for jekyll template based web page",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/jquery": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
