@@ -1,3 +1,5 @@
+var $ = require('jquery');
+
 module.exports = function(width, height) {
     var youku_embed = '<embed src="http://player.youku.com/player.php/sid/[vid]/v.swf" quality="high" width="'+ width +'" height="'+ height +'" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>';
     var youtube_embed = '<object width="'+ width +'" height="'+ height +'">'+
