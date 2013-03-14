@@ -31,7 +31,7 @@ module.exports = function(width, height) {
         }
     });
 
-    $('a[href*="viemo.com/"]').each(function() {
+    $('a[href*="vimeo.com/"]').each(function() {
         var that = $(this);
         var video = that.attr('href').mathch(/(com\/)([\d\-]+)/g);
         if (video.length) {
