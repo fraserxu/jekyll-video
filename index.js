@@ -33,7 +33,7 @@ module.exports = function(width, height) {
 
     $('a[href*="vimeo.com/"]').each(function() {
         var that = $(this);
-        var video = that.attr('href').mathch(/(com\/)([\d\-]+)/g);
+        var video = that.attr('href').match(/(com\/)([\d\-]+)/g);
         if (video.length) {
             $.each(video, function(i){
                 that.replaceWith( vimeo_embed.replace(/\[vid\]/g, this.replace('com/','')) );
